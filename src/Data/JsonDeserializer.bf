@@ -37,7 +37,7 @@ extension JsonReader
 
 	public Result<T> Deserialize<T>(bool requireAll = true)
 	{
-		//[Comptime, NoReturn]
+		[Comptime, NoReturn]
 		void Emit()
 		{
 			let type = typeof(T);
