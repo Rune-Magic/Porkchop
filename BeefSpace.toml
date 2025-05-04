@@ -1,0 +1,5 @@
+FileVersion = 1
+Projects = {Porkchop = {Path = "."}, "Porkchop.Test" = {Path = "test"}}
+
+[Workspace]
+StartupProject = "Porkchop"

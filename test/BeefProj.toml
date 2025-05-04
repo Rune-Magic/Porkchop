@@ -1,0 +1,7 @@
+FileVersion = 1
+Dependencies = {corlib = "*", Porkchop = "*"}
+
+[Project]
+Name = "Porkchop.Test"
+TargetType = "BeefTest"
+StartupObject = "Porkchop.Test.Program"
